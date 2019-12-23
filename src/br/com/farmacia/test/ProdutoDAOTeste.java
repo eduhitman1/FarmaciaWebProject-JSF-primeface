@@ -15,14 +15,13 @@ public class ProdutoDAOTeste {
 
 	    //TEST Junit INSERT PRODUTOS
 		@Test
-		@Ignore
 		public void salvar() throws SQLException {	
 	        Produtos p1 = new Produtos();
 			p1.setDescricao("Dipirona");
 			p1.setQuantidade(12L);  //TYPER LONG
 			p1.setPreco(2.99);
 			Fornecedores f = new Fornecedores();  //ACESSO AO FORNECEDOR
-			f.setCodigo(8L);
+			f.setCodigo(1L);
 			p1.setFornecedores(f);                   
 			
 			ProdutoDAO fdao = new ProdutoDAO();
@@ -58,7 +57,8 @@ public class ProdutoDAOTeste {
 		
 		
 		//TEST Junit LISTAGEM DE PRODUTOS E ASSOAÇÂO COM FORNECEDORES
-		@Test      
+		@Test
+		@Ignore
         public void listar() throws SQLException {
 			ProdutoDAO fdao = new ProdutoDAO();
 			ArrayList<Produtos> lista = fdao.listar();

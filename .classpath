@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
@@ -8,35 +7,19 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Eduardo/Documents/libs JAVA/all-themes-1.0.10.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Eduardo/Documents/libs JAVA/hamcrest-core-1.3.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Eduardo/Documents/libs JAVA/javax.faces-2.2.9.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Eduardo/Documents/libs JAVA/junit-4.6.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Eduardo/Documents/libs JAVA/postgresql-9.4.1209.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Eduardo/Documents/CURSOS UDEMY &amp; YOUTUBE/CURSO SISTEMA FARMÁCIA JAVA WEB/Arquivos/Sistema Farmacia/Biblioteca/primefaces-4.0.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/all-themes-1.0.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/commons-io-0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/javax.faces-2.2.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/jgoodies-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/jgoodies-looks-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/junit-4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/postgresql-9.4.1209.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eduardo.matias/Documents/LIB JAVA/primeface-4.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
